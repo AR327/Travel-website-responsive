@@ -66,4 +66,257 @@ body {
     column-gap: 1.5rem;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 50px;
+}
+
+.main-banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.banner-h1 {
+    margin: 0;
+
+    width: 596px;
+    height: 80px;
+    padding-left: 287px;
+    padding-right: 287px;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+.banner-p {
+    color: #FFF;
+    width: 676px;
+    height: 52px;
+    padding-left: 247px;
+    padding-right: 247px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0px 247px;
+    margin-bottom: 48px;
+}
+
+
+
+
+
+.blur-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 800px;
+    height: 84px;
+    gap: 24px;
+}
+
+.input {
+    width: 174px;
+    height: 52px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 0px 16px;
+}
+
+.blur-div select {
+    height: 52px;
+    width: 174px;
+    border-radius: 8px;
+    padding: 16px;
+    border: none;
+    color: gray;
+    outline: none;
+}
+
+.blur-div button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width: 174px;
+    border-radius: 8px;
+    padding: 16px;
+    background: #ff5400;
+    border: none;
+    outline: none;
+    gap: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+@media (max-width:576px) {
+    .banner {
+        width: 335px;
+        height: 483px;
+    }
+
+    .banner-h1 {
+        font-size: 22px;
+    }
+
+    .banner-p {
+        font-size: 14px;
+        padding: 0px 15px;
+    }
+
+    .blur-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* margin: auto; */
+        padding: 16px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.3);
+        width: 800px;
+        height: 84px;
+        gap: 24px;
+    }
+
+    .input {
+        width: 255px;
+        height: 52px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        padding: 0px 5px;
+    }
+
+    .blur-div select {
+        width: 255px;
+        height: 52px;
+        border-radius: 8px;
+        padding: 16px;
+        border: none;
+        color: gray;
+        outline: none;
+    }
+
+    .blur-div button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 255px;
+        height: 52px;
+        border-radius: 8px;
+        padding: 16px;
+        background: #ff5400;
+        border: none;
+        outline: none;
+        gap: 5px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+}
+
+.r3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 70px;
+    margin-top: 100px;
+}
+
+.content-div {
+    width: 50%;
+}
+
+.content-div h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.content-div p {
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.content-div ul li {
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.content-div button {
+    outline: none;
+    border: none;
+    margin-top: 32px;
+    border-radius: 8px;
+    background: #ff5400;
+    width: 174px;
+    height: 52px;
+    color: #fff;
+}
+
+.image-div {
+    width: 540px;
+    height: 550px;
+    background: url(./Images/Rectangle\ 4.png), lightgrey;
+    border-radius: 16px;
+}
+
+@media (max-width: 576px) {
+    .our-tour {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        /* gap: 70px; */
+    }
+
+    .content-div {
+        width: 100%;
+    }
+
+    .image-div {
+        width: 335px;
+        /* width: 100%; */
+        border-radius: 30px;
+        height: 342px;
+        flex-shrink: 0;
+        background: url(./Images/Rectangle\ 4.png), lightgray 50% / cover no-repeat;
+        background-position: center;
+    }
 }
