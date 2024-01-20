@@ -69,6 +69,11 @@ body {
         gap: 16px;
     }
 
+    .Navbar {
+        height: 27px;
+    }
+
+
 
     .logo {
         font-size: 21.543px;
@@ -188,6 +193,9 @@ body {
                 rgba(19, 19, 24, 0.8) 0%,
                 rgba(19, 19, 24, 0) 100%),
             url(./Images/Group\ 13\ \(1\)\ \(1\).png), lightgray 50% / cover no-repeat;
+        margin-top: 17.8px;
+        background-size: cover;
+        background-position: center;
     }
 
     .hero-image-div h1 {
@@ -554,10 +562,13 @@ body {
         height: 176px;
         flex-shrink: 0;
         background-size: cover;
+        background-position: center;
     }
 
     .part2 {
         background: url(./Images/Rectangle\ 8.png);
+        background-size: cover;
+        background-position: center;
     }
 
     .midThree {
@@ -565,6 +576,7 @@ body {
         height: 176px;
         flex-shrink: 0;
         background-size: cover;
+        background-position: center;
     }
 
     .mid2 {
@@ -572,6 +584,7 @@ body {
         height: 176px;
         flex-shrink: 0;
         background-size: cover;
+        background-position: center;
     }
 
     .mid3 {
@@ -579,6 +592,7 @@ body {
         height: 176px;
         flex-shrink: 0;
         background-size: cover;
+        background-position: center;
     }
 
 
@@ -587,6 +601,7 @@ body {
         height: 176px;
         flex-shrink: 0;
         background-size: cover;
+        background-position: center;
         border-radius: 16px;
     }
 
@@ -595,6 +610,7 @@ body {
         height: 176px;
         flex-shrink: 0;
         background-size: cover;
+        background-position: center;
     }
 }
 
@@ -643,6 +659,7 @@ body {
 .best {
     font-size: 24px;
     font-weight: 800;
+
 }
 
 .para-handpicked,
@@ -694,7 +711,7 @@ body {
         font-size: 20px;
         margin-top: 24px;
         margin-bottom: 16px;
-        justify-content: ;
+        /* justify-content: ; */
     }
 
     .r5 p {
@@ -712,12 +729,14 @@ body {
     .world,
     .best {
         font-size: 20px;
+        margin-bottom: 16px;
     }
 
     .para-handpicked,
     .para-world,
     .para-best {
         font-size: 14px;
+        margin-bottom: 32px;
     }
 
     .box1,
@@ -770,7 +789,7 @@ body {
     height: 500px;
     flex-shrink: 0;
     border-radius: 16px;
-    background: url(./Images/Group\ 40.png), lightgray 50% / cover no-repeat;
+    background: url(./Images/Group\ 39.png), lightgray 50% / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -783,7 +802,7 @@ body {
     height: 500px;
     flex-shrink: 0;
     border-radius: 16px;
-    background: url(./Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+    background: url(./Images/Group\ 40.png), lightgray 50% / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -880,6 +899,14 @@ body {
 }
 
 .banner-deals button {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     width: 150px;
     height: 52px;
     flex-shrink: 0;
@@ -893,6 +920,14 @@ body {
 }
 
 .banner-deals2 button {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     width: 150px;
     height: 52px;
     flex-shrink: 0;
@@ -904,6 +939,7 @@ body {
     border: none;
     outline: none;
 }
+
 
 @media screen and (max-width:600px) {
     .r6 {
@@ -921,6 +957,23 @@ body {
         margin-bottom: 16px;
     }
 
+    .banner-deals h1 {
+        padding: 0px 25px;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .banner-deals2 h1 {
+        padding: 0px 25px;
+        margin-top: 0px;
+        font-size: 20px;
+        margin-bottom: 0px;
+
+    }
+
+
+
     .banner-deals {
         width: 439px;
         height: 500px;
@@ -928,6 +981,8 @@ body {
         justify-content: center;
         padding: 0px;
         margin-top: 24px;
+        background-size: cover;
+        background-position: center;
     }
 
 
@@ -938,6 +993,8 @@ body {
         justify-content: center;
         padding: 0px;
         margin-top: 24px;
+        background-size: cover;
+        background-position: center;
     }
 
     .inner-box {
@@ -946,4 +1003,87 @@ body {
         width: 303px;
         height: 297px;
 
+
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+
+
     }
+
+    .inner-box .inner-box-upper {
+        flex-grow: 1;
+        flex-basis: 100%;
+        align-items: center;
+        justify-content: start;
+        gap: 8px;
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 24px;
+        width: 100%;
+        padding: 0 25px;
+    }
+
+
+
+
+    .inner-box .inner-box-upper .inner-box-upper-details {
+
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 8px;
+
+    }
+
+    .inner-box .inner-box-upper .inner-box-upper-details:first-child {
+        width: 100%;
+
+    }
+
+    .content p {
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+
+    .p {
+        margin-top: 0px;
+        font-size: 14px;
+        padding: 0px 25px;
+    }
+
+    .banner-deals h6 {
+        font-size: 16px;
+        padding: 0px 25px;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+
+    .banner-deals2 h6 {
+        margin-top: 8px;
+        font-size: 16px;
+        padding: 0px 25px;
+        margin-bottom: 0px;
+    }
+
+    .banner-deals button {
+        width: 130px;
+        height: 40px;
+        margin-top: 16px;
+        margin-left: 24px;
+
+    }
+
+    .banner-deals2 button {
+        width: 130px;
+        height: 40px;
+        margin-top: 16px;
+        margin-left: 24px;
+
+
+    }
+
+
+
+}
